@@ -1,4 +1,7 @@
 create database if not exists BookStoreDB;
+
+
+use BookStoreDB;
 CREATE TABLE books (
     title VARCHAR(255) NOT NULL,          -- Book title
     isbn VARCHAR(13) NOT NULL UNIQUE,    -- ISBN (unique identifier for the book)
